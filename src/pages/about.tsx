@@ -1,11 +1,14 @@
 import React from "react";
-import Layout from "../components/layout/layout";
 
 function About() {
   return (
     <>
-      <h1>About!</h1>
-      <a href="./home">Home</a>
+      <div className="w-full h-[50vh] bg-slate-700 grid place-items-center">
+        <h1 className="text-white text-9xl">ABOUT</h1>
+      </div>
+      <h2 className="mt-32 text-7xl text-center">
+        These are words about SRCA.
+      </h2>
     </>
   );
 }
