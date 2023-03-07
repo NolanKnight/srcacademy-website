@@ -1,13 +1,13 @@
 import React from "react";
 
-function About() {
+function Academics() {
   return (
     <>
       <h2 className="mt-32 text-6xl text-center">
-        These are words about SRCA.
+        These are words Academics SRCA.
       </h2>
     </>
   );
 }
 
-export default About;
+export default Academics;

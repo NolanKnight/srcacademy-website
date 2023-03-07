@@ -1,11 +1,13 @@
 import React from "react";
-import Footer from "../footer/footer";
-import Nav from "../nav/nav";
+import Banner from "./banner";
+import Footer from "./footer";
+import Nav from "./nav";
 
 function Layout({ children }) {
   return (
     <>
       <Nav />
+      <Banner />
       {children}
       <Footer />
     </>
